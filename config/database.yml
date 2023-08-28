@@ -21,7 +21,7 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: sahlminkok
-  password: <%= ENV["DATABASE_PASSWORD"] %>"
+  password: Mazanjiya7
 
 development:
   <<: *default
@@ -84,4 +84,4 @@ production:
   <<: *default
   database: hellorails_production
   username: sahlminkok
-  password: <%= ENV["DATABASE_PASSWORD"] %>"
+  password: Mazanjiya7
